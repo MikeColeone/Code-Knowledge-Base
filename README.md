@@ -1,19 +1,62 @@
-# Code Knowledge Base
+# 📚 Code Knowledge Base (代码知识库)
 
-## Introduce
+欢迎来到我的代码知识库。
 
-知识库，偏向面试总结，由于个人从事前端开发，所以前端比重较大，几乎涵盖了所有面试题，一定可以给正在求职的你带来帮助。
+本项目是一个系统化的技术沉淀与高频面试总结仓库。由于我个人深耕前端开发领域，因此这里包含了极为丰富的前端知识体系与面试题解析。无论你是正在准备求职，还是希望巩固技术栈，相信都能在这里找到有价值的内容。
 
-## Module
+> **💡 寄语：** 学习技术没有捷径可走，碎片化阅读只能救急，系统化搭建知识体系才能走得更远。诸君共勉！
 
-### Back Knowledge Base
+---
 
-### Front Knowledge Base
+## 📂 仓库目录结构
 
-### Docker Knowledge Base
+本仓库将知识点按领域进行了模块化拆分，以下是各主要模块的导航与简介：
 
-### Network Knowledge Base
+### 🎨 前端知识库 (`front-knowledge-base/`)
 
-### [Leetcode](https://github.com/MikeColeone/algorithm)
+核心板块，涵盖了前端工程化、框架原理与基础扎实度测试：
 
-## Interview
+- **基础语言：** `html/`、`css/`、`js/`、`ts/` 相关的进阶知识与核心考点。
+- **主流框架：** `react/`、`vue/` 的核心原理解析及最佳实践。
+- **工程化与架构：** `webpack/` 打包构建体系，`micro-frontend/` 微前端架构探索。
+- **手写代码集 (`code/`)：** 收录了数十种高频手写题（如 `Promise`、防抖节流、深拷贝、大数相加、各类经典布局等），配备详细的 `.md` 与 `.js`/`.ts` 实现。
+- **场景题 (`frontend-scenario-question/`)：** 真实业务场景下的技术选型与问题解决方案。
+- **环境与工具：** `browser/` 浏览器原理，`nodejs/` 服务端基础，`git/` 版本控制。
+
+### ⚙️ 后端与容器化
+
+- **`back-knowledge-base/`**：后端基础与构建工具（如 Maven）。
+- **`docker-knowledge-base/`**：Docker 容器化技术的学习笔记与实战。
+
+### 🌐 计算机基础知识
+
+- **`network-knowledge-base/`**：计算机网络核心协议与原理。
+- **`operating-system/`**：操作系统基础概念。
+- **`data-structure/`**：数据结构与算法笔记（搭配个人的 [Leetcode 题解仓库](https://github.com/MikeColeone/algorithm) 食用更佳）。
+
+### 🤖 拥抱 AGI (`way-to-AGI/`)
+
+- AI 时代的新生产力探索，包含 AI 编码辅助工具（如 Cursor 等）的使用技巧总结，探索人机协同的高效开发模式。
+
+---
+
+## 🚀 亮点与特色
+
+1. **贴近实战：** 所有手写代码和场景题均来源于真实面试与日常业务痛点。
+2. **体系完善：** 从底层网络协议、操作系统，到上层微前端架构、AI 辅助编程，形成完整的知识闭环。
+3. **可执行性：** `code` 目录下的代码片段均可独立运行，方便快速验证和调试。
+
+## 🛠️ 如何使用
+
+你可以直接在 GitHub 上按目录阅读相关的 `.md` 文件，或者将仓库克隆到本地进行系统性学习：
+
+```bash
+git clone <repository-url>
+cd code-knowledge-base
+```
+
+针对 `front-knowledge-base/code` 目录下的 `.js`/`.ts` 文件，可以直接使用 Node.js 或 ts-node 环境进行测试和调试。
+
+---
+
+*“保持好奇，持续深耕。”*
