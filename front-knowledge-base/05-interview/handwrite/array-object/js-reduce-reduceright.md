@@ -1,0 +1,1 @@
+# 模拟js数组中的reduce和reduceRight方法

@@ -1,52 +1,55 @@
-# 📚 Code Knowledge Base (代码知识库)
+# Code Knowledge Base
 
 欢迎来到我的代码知识库。
 
-本项目是一个系统化的技术沉淀与高频面试总结仓库。由于我个人深耕前端开发领域，因此这里包含了极为丰富的前端知识体系与面试题解析。无论你是正在准备求职，还是希望巩固技术栈，相信都能在这里找到有价值的内容。
+本项目是一个系统化的技术沉淀与高频面试总结仓库。当前重点面向前端开发和面试准备，同时也沉淀计算机基础、容器化、AI 编码等相关内容。随着 AI 发展，开发岗位的职责边界越来越模糊，知识广度和系统化表达能力都需要持续建设。
 
-> **💡 寄语：** 学习技术没有捷径可走，碎片化阅读只能救急，系统化搭建知识体系才能走得更远。诸君共勉！
+不在求职阶段很难有真实的面试笔试感受和经验，所以欢迎大家补充，一起进步！
+
+> 学习技术没有捷径可走，碎片化阅读只能救急，系统化搭建知识体系才能走得更远。诸君共勉！
 
 ---
 
-## 📂 仓库目录结构
+## 仓库目录结构
 
 本仓库将知识点按领域进行了模块化拆分，以下是各主要模块的导航与简介：
 
-### 🎨 前端知识库 (`front-knowledge-base/`)
+### 前端知识库
 
-核心板块，涵盖了前端工程化、框架原理与基础扎实度测试：
+核心板块位于 [`front-knowledge-base/`](./front-knowledge-base/README.md)，已经按“路线、基础、框架、工程化、架构、面试、代码实验”重新组织：
 
-- **基础语言：** `html/`、`css/`、`js/`、`ts/` 相关的进阶知识与核心考点。
-- **主流框架：** `react/`、`vue/` 的核心原理解析及最佳实践。
-- **工程化与架构：** `webpack/` 打包构建体系，`micro-frontend/` 微前端架构探索。
-- **手写代码集 (`code/`)：** 收录了数十种高频手写题（如 `Promise`、防抖节流、深拷贝、大数相加、各类经典布局等），配备详细的 `.md` 与 `.js`/`.ts` 实现。
-- **场景题 (`frontend-scenario-question/`)：** 真实业务场景下的技术选型与问题解决方案。
-- **环境与工具：** `browser/` 浏览器原理，`nodejs/` 服务端基础，`git/` 版本控制。
+- **复习路线：** [`00-roadmap/`](./front-knowledge-base/00-roadmap/) 提供复习路线、高频考点、八股题、手写题和场景题索引。
+- **基础能力：** [`01-foundation/`](./front-knowledge-base/01-foundation/) 包含 `js`、`ts`、`html`、`css`、`browser`。
+- **框架能力：** [`02-framework/`](./front-knowledge-base/02-framework/) 包含 `react`、`vue`。
+- **工程化能力：** [`03-engineering/`](./front-knowledge-base/03-engineering/) 包含 `webpack`、`nodejs`、`git`。
+- **架构能力：** [`04-architecture/`](./front-knowledge-base/04-architecture/) 包含微前端等复杂应用架构专题。
+- **面试专题：** [`05-interview/`](./front-knowledge-base/05-interview/) 包含手写题、场景题、系统设计和项目复盘。
+- **代码实验：** [`06-code-lab/`](./front-knowledge-base/06-code-lab/) 存放可运行、可调试的代码片段。
 
-### ⚙️ 后端与容器化
+### 容器化
 
-- **`back-knowledge-base/`**：后端基础与构建工具（如 Maven）。
 - **`docker-knowledge-base/`**：Docker 容器化技术的学习笔记与实战。
 
-### 🌐 计算机基础知识
+### 计算机基础知识
 
 - **`network-knowledge-base/`**：计算机网络核心协议与原理。
 - **`operating-system/`**：操作系统基础概念。
 - **`data-structure/`**：数据结构与算法笔记（搭配个人的 [Leetcode 题解仓库](https://github.com/MikeColeone/algorithm) 食用更佳）。
 
-### 🤖 拥抱 AGI (`way-to-AGI/`)
+### 拥抱 AGI
 
 - AI 时代的新生产力探索，包含 AI 编码辅助工具（如 Cursor 等）的使用技巧总结，探索人机协同的高效开发模式。
 
 ---
 
-## 🚀 亮点与特色
+## 亮点与特色
 
-1. **贴近实战：** 所有手写代码和场景题均来源于真实面试与日常业务痛点。
-2. **体系完善：** 从底层网络协议、操作系统，到上层微前端架构、AI 辅助编程，形成完整的知识闭环。
-3. **可执行性：** `code` 目录下的代码片段均可独立运行，方便快速验证和调试。
+1. **面向面试：** 前端部分按八股题、手写题、场景题、项目复盘组织，方便备战面试。
+2. **贴近实战：** 手写代码和场景题沉淀真实面试与日常业务痛点。
+3. **路径清晰：** 通过 `00-roadmap` 建立复习路线和索引，减少内容越来越多后的查找成本。
+4. **可验证：** `06-code-lab` 存放可运行代码，方便快速调试和验证实现。
 
-## 🛠️ 如何使用
+## 如何使用
 
 你可以直接在 GitHub 上按目录阅读相关的 `.md` 文件，或者将仓库克隆到本地进行系统性学习：
 
@@ -55,7 +58,13 @@ git clone <repository-url>
 cd code-knowledge-base
 ```
 
-针对 `front-knowledge-base/code` 目录下的 `.js`/`.ts` 文件，可以直接使用 Node.js 或 ts-node 环境进行测试和调试。
+推荐从前端知识库入口开始阅读：
+
+```text
+front-knowledge-base/README.md
+```
+
+针对 `front-knowledge-base/06-code-lab` 或 `front-knowledge-base/05-interview/handwrite` 下的 `.js`、`.ts`、`.html` 文件，可以直接使用 Node.js、ts-node 或浏览器进行测试和调试。
 
 ---
 
