@@ -1,6 +1,6 @@
 # 手写题
 
-手写题按能力域归档，部分文件来自 `01-foundation/js/code.md` 和 `01-foundation/css/code.md` 的结构迁移。
+手写题按能力域归档，适合集中训练编码表达、边界处理和复杂度说明。
 
 ## algorithm
 
