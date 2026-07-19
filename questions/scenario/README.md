@@ -2,6 +2,10 @@
 
 原 `note.md` 已拆分为独立题目文件。迁移阶段只保留原题目和已有内容。
 
+## 方法论
+
+- [场景题回答方法](场景题回答方法.md)
+
 ## architecture
 
 - [ES6模块化解析过程运作](architecture/architecture-question-001.md)
@@ -38,6 +42,7 @@
 - [前端如何设置请求超时时间 timeout](architecture/timeout.md)
 - [你认为组件封装的一些基本准则是什么？](architecture/architecture-question-033.md)
 - [低代码平台一般底层协议是怎么设计的？](architecture/architecture-question-034.md)
+- [大型动态表单的设计与性能优化](architecture/大型动态表单的设计与性能优化.md)
 
 ## auth
 
@@ -55,6 +60,7 @@
 - [Token 进行身份验证了解多少？](auth/token.md)
 - [在前端应用如何进行权限设计？](auth/auth-question-013.md)
 - [图形验证码以及短信验证码登录](auth/auth-question-014.md)
+- [登录态无感续期与刷新令牌设计](auth/登录态无感续期与刷新令牌设计.md)
 
 ## browser
 
@@ -81,6 +87,7 @@
 - [获取当前页面URL参数](browser/browser-question-021.md)
 - [IndexedDB 存储空间大小是如何约束的？](browser/indexeddb.md)
 - [浏览器的存储有哪些](browser/browser-question-023.md)
+- [大批量 DOM 更新与事件委托怎么设计](browser/大批量DOM更新与事件委托怎么设计.md)
 
 ## engineering
 
@@ -105,6 +112,8 @@
 - [Webpack 如何打包运行时 chunk，且在项目工程中如何去加载这个运行时 chunk？](engineering/webpack-chunk-chunk.md)
 - [在你的项目中使用过哪些 Webpack Plugin，说一下他们的作用](engineering/engineering-question-020.md)
 - [在你的项目中使用过哪些 Webpack Loader，说一下他们的作用](engineering/engineering-question-021.md)
+- [前端灰度发布与快速回滚方案](engineering/前端灰度发布与快速回滚方案.md)
+- [发布后用户拿到旧资源怎么办](engineering/发布后用户拿到旧资源怎么办.md)
 
 ## mobile
 
@@ -129,6 +138,7 @@
 - [用户访问页面白屏了，原因是什么，如何排查？](monitoring/monitoring-question-009.md)
 - [如何统计长任务时间、长任务执行次数](monitoring/monitoring-question-010.md)
 - [前端日志埋点 SDK 设计思路](monitoring/monitoring-question-011.md)
+- [第三方 SDK 异常时前端如何兜底](monitoring/第三方SDK异常时前端如何兜底.md)
 
 ## node
 
@@ -155,6 +165,7 @@
 - [后端一次性返回树形结构数据，数据量非常大，前端该如何处理？](rendering/rendering-question-007.md)
 - [低代码平台一般渲染是如何设计的？](rendering/rendering-question-008.md)
 - [为何现在市面上做表格渲染可视化技术的，大多数都是 Canvas，而很少用 SVG？](rendering/canvas-svg.md)
+- [海量表格渲染与交互优化](rendering/海量表格渲染与交互优化.md)
 
 ## security
 
